@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true })) // for parsing application/x-www
 
 //http://localhost:3000/
 app.get('/', function (req, res) {
-    res.redirect("index.html")
+    res.redirect('index.html')
 })
 
 //http://localhost:3000/profile
